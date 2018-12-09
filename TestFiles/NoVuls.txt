@@ -1,0 +1,18 @@
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Namespace.Models
+{
+    public class Product
+    {
+        [Key]
+        public int ProductId{ get; set; }
+
+        [Required]
+        [MaxLength(100)]
+        public string ProductName{ get; set; }
+        public DateTime ProductDate{ get; set; }
+        public string ProductInfo{ get; set; }
+
+    }
+}
