@@ -1,6 +1,8 @@
 
 ![# CodeScanner](/CodeVulnerabilityChecker/Content/logo.png)
 
+## This is an example/prototype/demo/university coursework project and is not fit for use in real world production code
+
 A very simple ASP.NET web application created for University coursework. Minimal functionality, the coursework was focused on security.
 
 <hr>
